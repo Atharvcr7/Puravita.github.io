@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puravita|Herbals</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"  crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header class="First_imp">
+    <div class="navbox">
+        <div class="navbar">
+            <div class="logo"><a href="#" style="display: flex;"><img src="images/logo.ico">Puravita</a></div>
+                <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="cart.html" class="action_btn"><i class="fa-solid fa-cart-shopping"> cart<sup id="cartnum"></sup></i></a>
+                <div class="search-boxrespo">
+                    <input type="text" placeholder="Search" onkeypress="handleKeyPress(event)"/>
+                </div>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+      </div>
+      <div class="dropdown_menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="products.html">Products</a></li> 
+            <li><a href="contact">Contact</a></1i>
+            <li><a href="#" class="action_btn"><i class="fa-solid fa-cart-shopping"> cart</i></a></li>
+    </div>
+    <div class="Banner">
+        <h1>Natural Care for a Healthier Tomorrow</h1>
+        <p style="text-decoration: overline;">From the heart of nature, for the health of humanity.</p>
+        <div class="search-box">
+            <input type="text" placeholder="  Search for products" onkeypress="handleKeyPress(event)"/>
+        </div>
+    </div>
+    </header>
+    <div class="brief">
+        <div><h3><i class="fa-solid fa-mortar-pestle"></i> || Rooted in Tradition, Growing Your Wellness.</h3>
+        <p>At the heart of our philosophy lies a deep respect for ancient Ayurvedic wisdom and a commitment to modern well-being. We craft herbal remedies and wellness products that honor the traditions of Ayurveda while meeting the needs of today’s lifestyle. Rooted in nature, our solutions are designed to nurture your health holistically, using sustainably sourced ingredients and time-tested formulations. With a focus on purity, quality, and efficacy, we aim to empower your journey toward a balanced and healthier life. Let us help you grow wellness, naturally.</p>
+        </div>
+        <img src="images/aushadhi.webp">
+    </div>
+    <!-- Slider main container -->
+
+<div class="inpProducts">
+    <h2>Our<a href="#"> Products</a>:-</h2>
+
+<div class="swiper">
+  <div class="swiper-wrapper" style="padding-top: 37px;">
+    <div class="swiper-slide allignprop">
+        <div class="subDiv">
+            <img src="images/products/barrud.webp">
+            <h4><a href="#">Chiranjivibava</a></h4>
+            <ul>
+             <li>Amalaki (Indian Gooseberry)</li>
+             <li>Gotu Kola (Centella Asiatica)</li>
+             <li>Green Tea Extracts</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹150</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+    </div>
+        <div class="subDiv"><img src="images/products/Chuna.jpeg">
+            <h4><a href="#">Amritavaleh</a></h4>
+            <ul>
+             <li>Giloy (Tinospora cordifolia)</li>
+             <li>Haldi (Turmeric)</li>
+             <li>Pipali (Long Pepper)</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹200</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+    </div>
+        <div class="subDiv"><img src="images/products/cement.webp">
+            <h4><a href="#">Ashwagandha Balam</a></h4>
+            <ul>
+             <li>Shalmali Pushpa (Bombax ceiba)</li>
+             <li>Arjuna (Terminalia arjuna)</li>
+             <li>Shunti (Ginger)</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹180</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+    </div>
+        <div class="subDiv"><img src="images/products/cream.jpeg">
+            <h4><a href="#">Yashtimadhu Lepa</a></h4>
+            <ul>
+             <li>Chandan (Sandalwood)</li>
+             <li>Kumkumadi (Saffron)</li>
+             <li>Manjishtha</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹220</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+     </div>
+    </div>
+    <div class="swiper-slide allignprop">
+        <div class="subDiv"><img src="images/products/petrol.jpeg">
+            <h4><a href="#">Indrayava Tailam</a></h4>
+            <ul>
+             <li>Amala (Indian Gooseberry)</li>
+             <li>Bhringraj (Eclipta alba)</li>
+             <li>Brahmi (Bacopa monnieri)</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹120</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+</div>
+        <div class="subDiv"><img src="images/products/eyeflu.jpeg">
+            <h4><a href="#">Netra Tarpan</a></h4>
+            <ul>
+             <li>Rose Water</li>
+             <li>(Amalaki, Bibhitaki, Haritaki)</li>
+             <li>Manjishtha</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹80</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+</div>
+        <div class="subDiv">
+            <img src="images/products/dard.jpeg">
+            <h4><a href="#">Kumkumadi Tailam</a></h4>
+            <ul>
+             <li>Nirgundi (Vitex negundo)</li>
+             <li>Mahabhringraj Tailam</li>
+             <li>Gandhapurna Tailam</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹100</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+        </div>
+        <div class="subDiv"><img src="images/products/ear.jpeg">
+            <h4><a href="#">Triphala Karnabindu</a></h4>
+            <ul>
+             <li>Til Tailam (Sesame Oil)</li>
+             <li>Arjun (Terminalia arjuna)</li>
+             <li>Manjishtha</li>
+        </ul>
+        <div class="allinbut">
+        <div class="ammount">₹80</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+        <div class="aadtoc">Buy now</div>
+    </div>
+</div>
+
+    </div>
+    <div class="swiper-slide allignprop">
+        <div class="swiper-slide allignprop">
+            <div class="subDiv"><img src="images/products/hair.jpeg">
+                <h4><a href="#">Brahmi Keshraj</a></h4>
+                <ul>
+                 <li>Amala (Indian Gooseberry)</li>
+                 <li>Gotu Kola (Centella Asiatica)</li>
+                 <li>Bhringraj</li>
+            </ul>
+            <div class="allinbut">
+            <div class="ammount">₹180</div>
+           <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="aadtoc">Buy now</div>
+        </div>
+    </div>
+            <div class="subDiv"><img src="images/products/acidity.jpeg">
+                <h4><a href="#">Agnivardhan</a></h4>
+                <ul>
+                 <li>Jeera (Cumin)</li>
+                 <li>Shunthi (Ginger)</li>
+                 <li>Haritaki (Terminalia chebula)</li>
+            </ul>
+            <div class="allinbut">
+            <div class="ammount">₹100</div>
+       <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="aadtoc">Buy now</div>
+        </div>
+    </div>
+            <div class="subDiv">
+                <img src="images/products/losemotion.jpeg">
+                <h4><a href="#">Grahani Mitra</a></h4>
+                <ul>
+                 <li>Jeera (Cumin)</li>
+                 <li>Shunthi (Ginger)</li>
+                 <li>Elaichi (Cardamom)</li>
+            </ul>
+            <div class="allinbut">
+            <div class="ammount">₹150</div>
+           <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="aadtoc">Buy now</div>
+        </div>
+            </div>
+            <div class="subDiv"><img src="images/products/chavanprash.jpeg">
+                <h4><a href="#">Amritaprash</a></h4>
+                <ul>
+                 <li>Ashwagandha</li>
+                 <li>Shatavari (Asparagus racemosus)</li>
+                 <li>Amla (Indian Gooseberry)</li>
+            </ul>
+            <div class="allinbut">
+            <div class="ammount">₹250</div>
+           <div class="aadtoc" onclick="aadtocart()">Add to <i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="aadtoc">Buy now</div>
+        </div>
+    </div>
+        </div>
+    </div>
+    </div>
+  <div class="swiper-pagination" style="color: #006300;"></div>
+  <div class="swiper-button-prev"style="color: #006300;"></div>
+  <div class="swiper-button-next"style="color: #006300;"></div>
+</div>
+
+</div>
+<div class="method">
+    <h2>Crafting Authentic Ayurvedic Products:-</h2>
+    <div class="sub_method">
+        <p>Crafting authentic Ayurvedic products requires a meticulous approach, from sourcing high-quality, ethically sourced ingredients to employing traditional formulations and modern manufacturing techniques. By adhering to strict quality control measures and prioritizing the purity and potency of herbs, we ensure that our products deliver the therapeutic benefits of Ayurveda.</p>
+        <img src="images/method.webp">
+    </div>
+</div>
+
+<div class="contact">
+    <h1>-Contact Us-</h1>
+    <div style="background-image: url(images/Untitleddesign.png); background-size: cover; background-repeat: no-repeat; padding: 50px; color: rgb(113, 196, 113);">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413.161633935652!2d77.49954997407387!3d28.477804690004447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea7201a5ecaf%3A0xc340b72dba97068c!2sCambridge%20School%20Greater%20Noida!5e1!3m2!1sen!2sin!4v1734154934536!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>
+        <h2>phone no: +91 7959849560</h2>
+        <h2><address>1–B, Institutional Area,Knowledge Park I, Greater Noida, Uttar Pradesh 201310</address></h2>
+    </div>    
+</div>
+<footer>Puravita|Copyright 2024-25|CSGN</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector(' .toggle_btn i')
+            const dropDownMenu = document.querySelector(' .dropdown_menu')
+            
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+            
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark' 
+                : 'fa-solid fa-bars'
+           }
+
+           
+  //Swiper 
+
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+    </script> 
+</body>
+</html>

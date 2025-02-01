@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Yatra One", system-ui;}
+
+.First_imp{
+    height: 100vh; 
+    background-color:#ffffff;
+    background-image: url('images/background.webp');
+    background-size: cover; 
+    background-position: center;
+    
+}
+h5{
+    color: #006300;
+    font-size: 5rem;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    text-decoration: underline;
+}
+.Firstcart{
+    height:max-content; 
+    background-color:#ffffff;
+    background-size: cover; 
+    background-position: center;
+    
+}
+.First_impPRO{
+    height: 30vh; 
+    background-color:#ffffff;
+    background-size: cover; 
+    background-position: center;
+    
+}
+.productshed{
+	background-image: url('images/prudoctsed.webp');
+        background-size:cover;
+	width:100%;
+	padding:45px;
+	height:200px;
+  	text-align:center;
+	color:green;
+	font-size:2rem;
+	border:10px dotted;
+}
+.productsCard{
+	margin-top:50px;
+	padding:3vw;
+	display:flex;
+	justify-content:space-evenly;
+}
+.cartdiv{
+    min-height: 70px;
+    max-width: 55vw;
+    margin-left:10vw;
+    padding: 20px;
+    border: 2px solid black;
+}
+.emptycart{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #0000007b;
+}
+li{
+    list-style: none;
+}        
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.navbar a:hover{
+    color:  rgb(17, 120, 17);
+    text-decoration: underline;
+}
+
+header{
+    position: relative;
+
+}
+.navbar{
+    width: 100%; 
+    height: 80px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbox{
+    height:80px;
+    background-color: #698855bb;
+    padding: 0 30px;
+    background-image: linear-gradient(to bottom right, #9aca77a0, #4f894f9a);
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.188);
+}
+
+.navbar .logo a{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar .logo a img{
+   width:60px;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem; 
+    cursor: pointer; 
+    display: none;
+}
+
+.dropdown_menu {
+    margin-top: 30px;
+    display: none;
+    position: absolute;
+    right: 2rem;    
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.538); 
+    backdrop-filter: blur (15px); 
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu.open { 
+    height: 270px;
+}
+
+.dropdown_menu li { 
+    padding: 0.7rem; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.Banner{
+    margin:9% 80px;
+    font-size: 2rem;
+    width: 50vw;
+}
+
+.search-box {
+    margin-top: 10px;
+  }
+  
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #4d794d;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.brief{
+    margin-top: 6em;
+    padding-left: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+.brief h3{
+    color: #006300;
+    text-decoration: underline;
+    font-size: 2.4rem;
+}
+.brief p{
+    width: 50vw;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.brief img{
+    padding-right: 4vw;
+    border-radius: 50%;
+    width: 500px;
+}
+.search-boxrespo{
+    display: none;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.inpProducts{
+    margin-top: 4em;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: #ffffff;
+}
+.inpProducts h2{
+    color: #006300;
+    text-decoration: underline;
+    font-size: 2.8rem;
+}
+.inpProducts h2 a:hover{
+    color: #2a892a;
+}
+.inpProducts h2 a{
+    color: #006300;
+}
+
+.swiper{
+    height: 450px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.allignprop{
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.subDiv{
+    background-color: #4f894f;
+    width: 300px;
+    height: 400px;
+    margin-top: -15px;
+    border-radius: 10%;
+    align-items: center;
+    padding-top: 1.4em;
+    border: 10px dotted;
+    text-align: center;
+}
+.subDiv img{
+    width: 180px;
+    border-radius: 100%;
+}
+.subDiv h4{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.subDiv h4 a{
+    color: black;
+    
+  }
+.subDiv h4 a:hover{
+    color:#67bd67;
+}
+.subDiv ul{
+    color: black;
+}
+
+.ammount{
+    background-color: rgba(255, 255, 0, 0.693);
+    width: max-content;
+    font-size: 1.6rem;
+    padding: 5px;
+    border-radius: 25%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.aadtoc{
+    background-color: rgba(231, 183, 93, 0.842);
+    width: max-content;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+    margin-top: 5px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.aadtoc:hover{
+    transform: scale(1.4);
+}
+.aadtoc:active{
+    color: #006300;
+}
+.allinbut{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.contact{
+    margin-top: 60px;
+    color:#006300;
+    text-align: center;
+}
+.contact h1{
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    text-decoration:underline;
+}
+.method {
+    padding: 4em;
+}
+.method h2{
+    color: #006300;
+    font-size: 3rem;
+    text-decoration: underline;
+
+}
+iframe{
+    width:500px;
+    height:300px;
+}
+.sub_method{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.sub_method img{
+     width: 550px;
+     border-radius: 25px;
+}
+footer{
+    background-image: linear-gradient(to bottom right, #9aca77a0, #4f894f9a);
+    background-color: #698855bb;
+    height: 10vh;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+
+}
+@media(max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+    display: none;
+    }
+    .search-box{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display:block;
+        margin-right: 2px;
+    }
+    .navbar .logo a{
+        margin-left: 5px;
+        font-size: 1.7rem;
+    }
+    .navbar .logo a img{
+        width:40px;
+    }
+    .search-boxrespo{
+        margin-left: 40px;
+        margin-right: 10px;
+        display: block;
+        
+    }
+    .search-boxrespo input{
+        height: 40px;
+        width:75px;
+        font-size: 1rem;
+    }
+     .dropdown_menu{
+        display: block;
+     }
+     .dropdown_menu a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 1.3rem;
+     }
+     .Banner{
+        margin:15% 40px;
+        font-size: 1rem;
+        width: 70vw;
+     }
+     .brief{
+        display: block;
+        margin-top: 4em;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .brief h3{
+        color: #006300;
+        text-decoration: underline;
+        font-size: 1.5rem;
+    }
+    .brief p{
+        font-size: .9rem;
+        width: auto;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .brief img{
+        border-radius: 50%;
+        padding-right: 0;
+        width: 250px;
+        margin-top: 30px;
+    }
+    .inpProducts{
+        margin-top: 4em;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        background-color: #ffffff;
+    }
+    .inpProducts h2{
+        color: #006300;
+        text-decoration: underline;
+        font-size: 2.3rem;
+    }
+    .method {
+        padding: 2em;
+    }
+    .method h2{
+        color: #006300;
+        font-size: 1.4rem;
+        text-decoration: underline;
+    
+    }
+    .sub_method{
+        display: block;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .sub_method img{
+         width:350px;
+         border-radius: 25px;
+         margin-left: -1.2em;
+         margin-top: 20px;
+    }
+    
+    .contact{
+        margin-top: 30px;
+        color:#006300;
+        text-align: center;
+    }
+    .contact h1{
+        font-size: 2rem;
+        margin-bottom: 30px;
+        text-decoration:underline;
+    }
+    footer{
+        background-image: linear-gradient(to bottom right, #9aca77a0, #4f894f9a);
+        background-color: #698855bb;
+        height: 10vh;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+    iframe{
+    width:300px;
+    height:200px;
+}
+    }
+    @media(max-width: 576px){
+        .dropdown_menu{
+            left: 2rem;    
+            width:unset;
+        }
+    
+    }
