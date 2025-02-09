@@ -7,7 +7,7 @@
 .First_imp{
     height: 100vh; 
     background-color:#ffffff;
-    background-image: url('images/background.webp');
+    background-image: url('background.webp');
     background-size: cover; 
     background-position: center;
     
@@ -34,7 +34,7 @@ h5{
     
 }
 .productshed{
-	background-image: url('images/prudoctsed.webp');
+	background-image: url('prudoctsed.webp');
         background-size:cover;
 	width:100%;
 	padding:45px;
